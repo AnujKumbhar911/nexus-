@@ -116,4 +116,12 @@ use docker hosted repositories with name of microservice - travelbooking-ms
 settings:
  allow anonymous docker pull 
 select bolb store: s3 bucket we created
+===================================================
+go to realms:>>
+ move docker bearer token to right and save
+
+============================
+update the jenkinsfile
+and add stage for nexus
+add credentials for nexus in jenkins
 
