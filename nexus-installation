@@ -115,3 +115,5 @@ use docker hosted repositories with name of microservice - travelbooking-ms
 
 settings:
  allow anonymous docker pull 
+select bolb store: s3 bucket we created
+
