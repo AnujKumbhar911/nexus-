@@ -106,6 +106,7 @@ go to settings
 go to blob store:
 create new s3 type
 create a s3 bucket
+select HTTP port to 8085
 create a user for s3 policies and given access keys in authentication
 no encryption 
 no advanced settings:
@@ -156,10 +157,11 @@ now for docker login and docker tag change the port to 8085
 ==============================================
 insecurities:
 cat > /etc/docker.daemon.json
-{ "insecure-registries" : [ "13.127.164.184:8085" ] }
+{ "insecure-registries" : [ "3.110.41.107:8085" ] }
 
 type in nexus ip
 
+stop and start docker
 
 ============================================
 
