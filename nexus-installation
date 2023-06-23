@@ -156,13 +156,13 @@ now for docker login and docker tag change the port to 8085
 
 ==============================================
 insecurities:
-cat > /etc/docker.daemon.json
+cat > /etc/docker/daemon.json
 { "insecure-registries" : [ "3.110.41.107:8085" ] }
 
-type in nexus ip
+type in nexus ip public
 
 stop and start docker
-
+docker login -u admin -p admin 3.110.41.107:8085
 ============================================
 
 
